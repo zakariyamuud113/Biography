@@ -176,11 +176,28 @@ section {
   margin: auto 0;
 }
 
-.profile-pic-round{ 
+/* .profile-pic-round{ 
     width: 100%; /* Makes the image take the full width of the container */
     height: 100%; /* Makes the image take the full height of the container */
     object-fit: cover; /* Ensures the image maintains its aspect ratio */
-    border-radius: 10%; /* Makes the image round */    
+    border-radius: 10%; /* Makes the image round */   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.section__pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* optional: for vertical centering */
+  height: auto; /* or set a fixed height if needed */
+}
+
+.profile-pic-round {
+  max-width: 300px; /* or any fixed size you want */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10%;
 }
 
 .section__text {
