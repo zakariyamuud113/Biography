@@ -180,7 +180,7 @@ section {
     width: 100%; /* Makes the image take the full width of the container */
     height: 100%; /* Makes the image take the full height of the container */
     object-fit: cover; /* Ensures the image maintains its aspect ratio */
-    border-radius: 50%; /* Makes the image round */
+    border-radius: 10%; /* Makes the image round */    
 }
 
 .section__text {
