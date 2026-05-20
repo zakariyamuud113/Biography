@@ -441,20 +441,23 @@ article .icon {
 }
 
 .pricing-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 4rem;
 }
 
 .pricing-card {
-    width: 340px;
     background: white;
     border: rgb(163, 163, 163) 0.1rem solid;
     border-radius: 2rem;
     padding: 2.5rem;
     transition: all 300ms ease;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pricing-card:hover {
@@ -544,6 +547,18 @@ article .icon {
     border-radius: 2rem;
     font-size: 0.8rem;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    .pricing-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* CONTACT */
