@@ -33,7 +33,6 @@ function scrollToContact() {
   contactSection.scrollIntoView({ behavior: 'smooth' });
 }
 
-<<<<<<< HEAD
 const carouselTrack = document.querySelector('.carousel-track');
 const projectCards = document.querySelectorAll('.project-card');
 const prevBtn = document.querySelector('.prev-btn');
@@ -124,6 +123,4 @@ createCarouselDots();
 attachProjectCardListeners();
 updateActiveCard();
 
-=======
->>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 
