@@ -10,12 +10,15 @@
   #projects {
     height: fit-content;
   }
+<<<<<<< HEAD
   .pricing-btn {
     width: auto;
     align-self: stretch;
     padding-left: 0rem;
     padding-right: 1rem;
   }
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 @media screen and (max-width: 1200px) {
@@ -24,13 +27,17 @@
   }
   #hamburger-nav {
     display: flex;
+<<<<<<< HEAD
     position: sticky;
     top: 0;
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
+<<<<<<< HEAD
   #profile {
     display: flex;
     flex-direction: column;
@@ -44,6 +51,11 @@
   .section-container {
     display: block;
     gap: 2rem;
+=======
+  #profile,
+  .section-container {
+    display: block;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   }
   .arrow {
     display: none;
@@ -56,6 +68,7 @@
     margin: 0 5%;
   }
   .section__pic-container {
+<<<<<<< HEAD
     width: 100%;
     max-width: 420px;
     margin: 0 auto 2rem;
@@ -83,11 +96,21 @@
     padding-left: 0rem;
     padding-right: 1rem;
   }
+=======
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
+<<<<<<< HEAD
     height: auto;
   }
   #hamburger-nav {
@@ -104,6 +127,13 @@
   }
   #about {
     gap: 1.5rem;
+=======
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   }
   article {
     font-size: 1rem;
@@ -117,11 +147,14 @@
   .btn-container {
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
   .btn-container {
     width: 100%;
     flex-direction: column;
     gap: 0.75rem;
   }
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   .contact-info-container {
     margin: 0;
   }
@@ -140,6 +173,7 @@
     gap: 0.5rem;
     text-align: center;
   }
+<<<<<<< HEAD
   section {
     margin: 0 3%;
     padding-top: 3vh;
@@ -152,6 +186,12 @@
   .btn {
     width: auto;
     padding: 0.9rem 1rem;
+=======
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -162,6 +202,7 @@
   .text-container {
     text-align: justify;
   }
+<<<<<<< HEAD
   .pricing-btn {
     width: auto;
     align-self: stretch;
@@ -294,3 +335,6 @@
     }
 
 }
+=======
+}
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76

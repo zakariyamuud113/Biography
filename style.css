@@ -37,10 +37,13 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+<<<<<<< HEAD
   position: sticky;
   top: 0;
   z-index: 20;
   background: rgba(255, 255, 255, 0.95);
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .nav-links {
@@ -74,14 +77,20 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+<<<<<<< HEAD
   position: relative;
   z-index: 25;
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .hamburger-menu {
   position: relative;
   display: inline-block;
+<<<<<<< HEAD
   z-index: 26;
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .hamburger-icon {
@@ -157,6 +166,10 @@ a:hover {
 
 section {
   padding-top: 4vh;
+<<<<<<< HEAD
+=======
+  height: 96vh;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -164,7 +177,10 @@ section {
 
 .section-container {
   display: flex;
+<<<<<<< HEAD
   gap: 4rem;
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 /* PROFILE SECTION */
@@ -173,13 +189,18 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
+<<<<<<< HEAD
   min-height: 80vh;
   position: relative;
   padding-top: 2rem;
+=======
+  height: 80vh;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .section__pic-container {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -202,6 +223,32 @@ section {
 .profile-pic-round {
   width: 100%;
   max-width: 100%;
+=======
+  height: 600px;
+  width: 600px;
+  margin: auto 0;
+}
+
+/* .profile-pic-round{ 
+    width: 100%; /* Makes the image take the full width of the container */
+    height: 100%; /* Makes the image take the full height of the container */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    border-radius: 10%; /* Makes the image round */   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.section__pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* optional: for vertical centering */
+  height: auto; /* or set a fixed height if needed */
+}
+
+.profile-pic-round {
+  max-width: 300px; /* or any fixed size you want */
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   height: auto;
   object-fit: cover;
   border-radius: 10%;
@@ -210,8 +257,11 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+<<<<<<< HEAD
   position: relative;
   z-index: 2;
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .section__text p {
@@ -338,6 +388,7 @@ section {
 
 .section-container {
   gap: 4rem;
+<<<<<<< HEAD
 }
 
 .section__pic-container {
@@ -350,6 +401,17 @@ section {
   border-radius: 2rem;
 }
 
+=======
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -398,6 +460,7 @@ article .icon {
 
 #projects {
   position: relative;
+<<<<<<< HEAD
   padding-bottom: 3rem;
 }
 
@@ -505,10 +568,29 @@ article .icon {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 0.5rem;
+=======
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .project-btn {
   color: black;
+<<<<<<< HEAD
   border-color: rgba(0, 0, 0, 0.15);
   background: rgba(255, 255, 255, 0.85);
 }
@@ -609,12 +691,20 @@ article .icon {
   .project-copy {
     font-size: 0.95rem;
   }
+=======
+  border-color: rgb(163, 163, 163);
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 /* Pricing */
 
 .pricing-section {
+<<<<<<< HEAD
     padding: 6rem 2%;
     background: rgb(248, 247, 247);
+=======
+    padding: 6rem 8%;
+    background: rgb(250, 250, 250);
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .pricing-header {
@@ -698,6 +788,7 @@ article .icon {
 }
 
 .pricing-btn {
+<<<<<<< HEAD
   display: inline-block;
   width: auto;
   align-self: center;
@@ -709,6 +800,18 @@ article .icon {
   color: black;
   font-weight: 600;
   transition: all 300ms ease;
+=======
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: black 0.1rem solid;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 300ms ease;
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 }
 
 .pricing-btn:hover {
@@ -740,7 +843,10 @@ article .icon {
     background: rgb(230, 230, 230);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 .badge {
     position: absolute;
     top: 1.5rem;
@@ -753,6 +859,7 @@ article .icon {
     font-weight: 600;
 }
 
+<<<<<<< HEAD
 /* retainer package */
 .retainer-section {
     padding: 7rem 8%;
@@ -883,6 +990,20 @@ article .icon {
 
 
 
+=======
+@media screen and (max-width: 1200px) {
+    .pricing-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
 /* CONTACT */
 
 #contact {
@@ -899,7 +1020,11 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+<<<<<<< HEAD
   background: rgb(250, 250, 250);
+=======
+  background: (250, 250, 250);
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -934,6 +1059,7 @@ footer {
 footer p {
   text-align: center;
 }
+<<<<<<< HEAD
 
 .whatsapp-float {
   position: fixed;
@@ -960,3 +1086,5 @@ footer p {
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
+=======
+>>>>>>> 20d19726c397398b7c7710578da419453bba6b76
