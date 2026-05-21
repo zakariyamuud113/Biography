@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="m3WQ5gTiHaU7hKHGOvPzdOvlM-RHVEmszMJoKGSePog" />
+    <title>Zakaria Mohamud Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./path/to/your/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Zakaria </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Zakaria Mohamud</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Zakaria Mohamud Hassan profile picture" class="profile-pic-round" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Zakaria Mohamud Hassan</h1>
+        <p class="section__text__p2">Junior Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/ZAKARIA MOHAMUD HASSAN.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="scrollToContact()">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/zakariyamuud113'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Frontend & Backend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Applied IT graduate from ISBAT University with a strong foundation in web development, specializing in HTML, CSS, and JavaScript. Experienced with knowledge of frontend and backend development as well as database-driven applications.
+            </p>
+            
+            <p>
+              Focused on building modern, responsive websites and using AI tools to improve development workflows, research, and productivity while delivering user-focused solutions.
+            </p>
+            
+            <p>
+              Also knowledgeable in DevOps and Cloud Computing, with plans to pursue certifications to further develop skills in scalable and secure systems.
+            </p>
+          </div>
+        </div>
+      </div>
+       <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        id="scroll-arrow"
+      /> 
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend & Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <!-- <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <!-- <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>  -->
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MSSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Technologies and Frameworks</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Azure</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Prompt Engineering</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Linux</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Laravel</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />           
+            <div>
+              <h3>Git</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Supabase</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./assets/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Lovable</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent Work</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-carousel">
+        <button class="carousel-btn glass prev-btn" aria-label="Previous project">‹</button>
+        <div class="carousel-track-container">
+          <div class="carousel-track">
+            <article class="project-card" tabindex="0">
+              <div class="project-image-wrapper">
+                <img src="./assets/project-3.png" alt="Uganda Association of Dermatology project screenshot" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Uganda Association of Dermatology</h2>
+              <p class="project-copy">A refined healthcare showcase with easy booking, authoritative branding, and trusted user experience.</p>
+              <div class="btn-container project-cta">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zakariyamuud113/uganda-dermal-glimpse'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://uadug.org/'">Live Demo</button>
+              </div>
+            </article>
+            <article class="project-card" tabindex="1">
+              <div class="project-image-wrapper">
+                <img src="./assets/image1.png" alt="AutoPartsUg project screenshot" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">AutoPartsUg</h2>
+              <p class="project-copy">A polished auto parts marketplace with modern UI, search filters, and fast checkout flows.</p>
+              <div class="btn-container project-cta">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zakariyamuud113/AutoPartsHub'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://autopartsug.shop/'">Live Demo</button>
+              </div>
+            </article>
+            <article class="project-card" tabindex="2">
+              <div class="project-image-wrapper">
+                <img src="./assets/doghub.png" alt="DogHub Ug project screenshot" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">DogHub Ug</h2>
+              <p class="project-copy">A community-first pet platform with clean visual design and fast mobile-friendly browsing.</p>
+              <div class="btn-container project-cta">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zakariyamuud113/dogHubUg'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://doghubug.shop/'">Live Demo</button>
+              </div>
+            </article>
+            <article class="project-card" tabindex="3">
+              <div class="project-image-wrapper">
+                <img src="./assets/project-4.png" alt="Unity Family Home LLC project screenshot" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Unity Family Home LLC</h2>
+              <p class="project-copy">A lifestyle brand experience built for conversions, clear offers, and premium home services.</p>
+              <div class="btn-container project-cta">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zakariyamuud113/homecare'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://unityfamilyhomellc.netlify.app/'">Live Demo</button>
+              </div>
+            </article>
+            <article class="project-card" tabindex="4">
+              <div class="project-image-wrapper">
+                <img src="./assets/project-5.png" alt="Fuel Inventory Management project screenshot" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Fuel Inventory Management</h2>
+              <p class="project-copy">An efficient inventory dashboard with visual clarity, organized data flow, and fast user actions.</p>
+              <div class="btn-container project-cta">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zakariyamuud113/FuelInventoryManagement'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://fuelinventorymanagement.netlify.app/'">Live Demo</button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <button class="carousel-btn glass next-btn" aria-label="Next project">›</button>
+      </div>
+      <div class="carousel-nav-dots" aria-label="Project navigation"></div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#pricing-section'"
+      />
+    </section>
+    
+    
+    <!-- Pricing section -->
+    
+    <section class="pricing-section">
+      <div class="pricing-header">
+        <span>Explore My</span>
+        <h2>Service Packages</h2>
+        <p>
+          Modern and scalable web solutions designed to help businesses establish a strong digital presence.
+        </p>
+      </div>
+    
+      <div class="pricing-container">
+    
+        <!-- STARTER -->
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <h1>UGX 800K</h1>
+          <p class="package-desc">Perfect for startups and small businesses establishing an online presence.</p>
+    
+          <ul>
+            <li>✔ Up to 3 Pages</li>
+            <li>✔ Mobile Responsive Design</li>
+            <li>✔ WhatsApp Integration</li>
+            <li>✔ Contact Form</li>
+            <li>✔ Basic SEO Setup</li>
+            <li>✔ Social Media Integration</li>
+            <li>✔ 1 Revision Round</li>
+          </ul>
+    
+          <a 
+            href="https://wa.me/256701234567?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20the%20Starter%20Package."
+            class="pricing-btn"
+            target="_blank"
+            >
+            Get Started
+          </a>
+        </div>
+    
+        <!-- BUSINESS -->
+        <div class="pricing-card featured">
+          <div class="badge">Most Popular</div>
+    
+          <h3>Business</h3>
+          <h1>UGX 2.5M</h1>
+          <p class="package-desc">
+            Ideal for growing brands that need a stronger digital presence and functionality.
+          </p>
+    
+          <ul>
+            <li>✔ Up to 7 Pages</li>
+            <li>✔ Premium UI/UX Design</li>
+            <li>✔ Admin Dashboard</li>
+            <li>✔ Blog/News Section</li>
+            <li>✔ SEO Optimization</li>
+            <li>✔ Speed Optimization</li>
+            <li>✔ Google Maps Integration</li>
+            <li>✔ 2 Revision Rounds</li>
+          </ul>
+    
+          <a 
+            href="https://wa.me/256701234567?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20the%20Business%20Package."
+            class="pricing-btn"
+            target="_blank"
+            >
+            Choose Package
+          </a>
+        </div>
+    
+        <!-- ENTERPRISE -->
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <h1>Custom</h1>
+          <p class="package-desc">
+            Advanced solutions for organizations, institutions, and large-scale businesses.
+          </p>
+    
+          <ul>
+            <li>✔ Unlimited Pages</li>
+            <li>✔ Custom Dashboard</li>
+            <li>✔ Booking System</li>
+            <li>✔ API Integrations</li>
+            <li>✔ User Authentication</li>
+            <li>✔ Security Optimization</li>
+            <li>✔ Advanced SEO</li>
+            <li>✔ Priority Support</li>
+          </ul>
+    
+          <a 
+            href="https://wa.me/256701234567?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20the%20Enterprise%20Package."
+            class="pricing-btn"
+            target="_blank"
+            >
+            Choose Package
+          </a>
+        </div>
+    
+      </div>
+    </section>
+
+    <section class="retainer-section">
+
+      <div class="retainer-header">
+          <span>Ongoing Support</span>
+          <h2>Monthly Retainers</h2>
+          <p>
+            Continuous digital management solutions designed to keep your business active, professional, and consistently growing online.
+          </p>
+      </div>
+
+      <div class="retainer-container">
+
+          <!-- WEBSITE CARE -->
+          <div class="retainer-card">
+            <div class="retainer-top">
+              <h3>Website Care</h3>
+              <span>Monthly</span>
+            </div>
+
+            <p>
+              Reliable website maintenance and technical support to ensure your platform stays secure, updated, and optimized.
+            </p>
+
+            <ul>
+              <li>✔ Website Updates</li>
+              <li>✔ Backups & Security Checks</li>
+              <li>✔ Content Uploads</li>
+              <li>✔ Technical Support</li>
+            </ul>
+
+            <a 
+              href="https://wa.me/256701234567?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20the%20Website%20Care%20Package."
+              class="retainer-btn"
+              target="_blank"
+            >
+              Choose Package
+            </a>
+          </div>
+
+          <!-- SOCIAL MEDIA -->
+          <div class="retainer-card featured-retainer">
+            <div class="retainer-top">
+              <h3>Social Management</h3>
+              <span>Most Popular</span>
+            </div>
+
+            <p>
+              Consistent branded content and social media management designed to improve engagement and online visibility.
+            </p>
+
+            <ul>
+              <li>✔ Branded Posts</li>
+              <li>✔ Caption Writing</li>
+              <li>✔ Content Scheduling</li>
+              <li>✔ Branding Consistency</li>
+            </ul>
+
+            <a 
+              href="https://wa.me/256701234567?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20the%20Social%20Management%20Package."
+              class="retainer-btn"
+              target="_blank"
+            >
+              Choose Package
+            </a>
+          </div>
+
+          <!-- DIGITAL PRESENCE -->
+          <div class="retainer-card">
+            <div class="retainer-top">
+              <h3>Digital Presence</h3>
+              <span>Advanced</span>
+            </div>
+
+            <p>
+              Complete ongoing management of your website, content, and social platforms for a fully maintained digital presence.
+            </p>
+
+            <ul>
+              <li>✔ Website Management</li>
+              <li>✔ Social Media Management</li>
+              <li>✔ Content Updates</li>
+              <li>✔ Monthly Reporting</li>
+            </ul>
+
+            <a 
+              href="https://wa.me/256701234567?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20the%20Digital%20Presence%20Package."
+              class="retainer-btn"
+              target="_blank"
+            >
+              Choose Package
+            </a>
+          </div>
+
+      </div>
+
+    </section>
+
+
+
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:zakariyamuud113@gmail.com">zakariyamuud113@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/zakariya-muhammud-0356b61a3">LinkedIn</a></p>
+          
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow-up.png"
+        alt="Arrow icon"
+        class="icon arrow"
+      />
+
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Zakaria Mohamud Hassan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- WhatsApp Floating Button -->
+<a
+  href="https://wa.me/256756012702?text=Hello%20Zakaria%2C%20I%20am%20interested%20in%20your%20services."
+  class="whatsapp-float"
+  target="_blank"
+>
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+  </body>
+</html>
